@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from schema import ProdutosSchema
-from data import Produtos
+from .schema import ProdutosSchema
+from .data import Produtos
 
 app = FastAPI()
 lista_de_produtos = Produtos()
