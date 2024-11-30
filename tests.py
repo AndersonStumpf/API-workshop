@@ -14,3 +14,7 @@ def test_ola():
 def test_2_ola():
     response = client.get("/")
     assert response.json() == {"Olá":"Mundo"}
+
+def test_listar_produtos_code():
+    response = client.get("/produtos")
+    assert response.status_code == 200
