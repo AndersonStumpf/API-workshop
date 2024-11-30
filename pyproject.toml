@@ -12,6 +12,7 @@ uvicorn = "^0.32.1"
 taskipy = "^1.14.1"
 pytest = "^8.3.3"
 httpx = "^0.28.0"
+pydantic = "^2.10.2"
 
 
 [build-system]
