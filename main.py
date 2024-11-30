@@ -32,7 +32,7 @@ def ola():
 def listar_produtos():
     return produtos
 
-@app.get("/produtos{id}")
+@app.get("/produtos{id}") #Endpoint buscar produto
 def buscar_produto(id: int):
     for produto in produtos:
         if produto["id"] == id:
